@@ -1,0 +1,102 @@
+/* CSS for consistent components throughout all pages */
+
+body {
+    background-image: url("/assets/white-waves.png");
+    font-size: 20px;
+}
+
+.container {
+    background-color: white;
+}
+
+/* Header and Nav Bar */
+.navbar {
+    
+    background:white; 
+    padding: 0; 
+    border-bottom: 1px solid #777777;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.navbar-brand{
+    color: white !important; 
+    background-color: #4aaaa5;
+    font-size: 25px;
+    padding: 15px; 
+    
+}
+
+.nav-link {
+    color: #777777; 
+    border-right: 1px solid #777777; 
+    padding: 0; 
+
+}
+
+#navbarNav > ul > li:nth-child(3) > a {
+    border-right: 0px; 
+}
+
+
+.pagecontent {
+    min-height: 100vh;
+    margin-top: 50px;
+
+}
+
+.bodyheader {
+    color: #4aaaa5; 
+    padding: 20px; 
+    border-bottom: 1px solid #777777; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+}
+
+.maincontent {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #777777; 
+    line-height: 1.5;
+}
+
+#bioimage {
+    margin: 20px;
+}
+
+.footer{
+    background-color: #4aaaa5; 
+    color: white;
+    padding-top: 15px;
+    border-top: #777777 8px solid;
+    text-align: center;
+    width: 100%; 
+}
+
+/* CSS for Portfolio Page */
+
+.application {
+    position: absolute; 
+    bottom: 10%; 
+    background-color: #4aaaa5;
+    margin: 0 auto; 
+    color: white; 
+    width: 180px; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.mainbody {
+    padding: 20px; 
+}
+
+/* CSS for Contact Page*/
+
+.inputform {
+    padding-bottom: 80px; 
+}
+
+#btn {
+    float: left; 
+}
+
+

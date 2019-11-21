@@ -4,80 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Index</title>
+<!--Links to Bootstrap and CSS stylesheets-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-
-
 <body>
+     <!--Header and Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Weston Meier</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto mt-2">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+       </div> 
+      </nav>
 
-    <div class="header">
-        <div class="heading">
-                <div class="myname">
-                  <div class="row">
-                    <div class="col md-3">
-                      <h2>Weston Meier</h2>
-                    </div>
-                    <div class="col md-3">                    
-                    </div>
-                    <div class="col md-3">                      
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                          <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="index.html">About Me |<span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="portfolio.html">Portfolio |</a>
-                            <a class="nav-item nav-link" href="contact.html">Contact |</a>                          
-                          </div>
-                        </div>
-                     </div>
-                    </nav>
-                </div>
-              </div>
-        </div>
-    </div>
-    <hr>
-    <div class="container">
-      <div class="mainbody">
+        <!--Main Body Content-->
+    <div class="pagecontent">
+      <div class="container">
         <div class="row">
-          <div class="profilpic">
-            <div class="col lg-6">
-            <img src="Assets\realprofilpic.jpg" alt="profilepic"></div>
-            </div> 
-              <div class ="col lg-6">
-                <div class="bodytext">
-                  Hello future employer, My name in Weston Meier and I am lucky enough to live in beautiful Salt Lake City, Utah. I spent five years in Los Angeles, California as a musician. I found my love of coding between touring and rehearsal. 
-                  I am extremely excited to be learning everything I can about programming and working on projects that are interesting and exciting.    
-                  I have been a computer geek since I learned how to implement add-ons in World of Warcraft back in the Burning Crusade days.
-                  when I am not working on coding projects, you can find me in the kitchen. If I'm not in the kitchen, I am usually grocery shopping for ingredients to use in said kitchen. I find it very therapeutic to walk around a grocery store listening to a podcast
-                  and picking out amazing things to put together. I love living downtown and taking my dog for walks around the city. My fiance and I enjoy going on vacation, taking our dog to Tanner Park and studying together.       
-                  </div>   
-              </div>
-            </div>
+          <div class="col-12"><h1 class="bodyheader">About Me</h1></div>
         </div>
-      </div>
-    </div>
-    <br>
-    <br>
-    <br>
-<div class="footer">
-      <div class="row">
-          <div class="col lg-12">
-              <p>
-                Copyright &copy;
-             </p>
-           </div>
+        <div class="maincontent">
+            <div class="row">
+              <div class="profilpic">
+                <div class="col col-xs-12">
+                    <img src="assets\realprofilpic.jpg" class="img-fluid float-left" id="bioimage">
+                    <p>Hello future employer, My name in Weston Meier and I am lucky enough to live in beautiful Salt Lake City, Utah. 
+                    I spent five years in Los Angeles, California as a musician. 
+                    I found my love of coding between touring and rehearsal. 
+                    I am extremely excited to be learning everything I can about programming and working on projects that are interesting and exciting.    
+                    I have been a computer geek since I learned how to implement add-ons in World of Warcraft back in the Burning Crusade days.
+                    when I am not working on coding projects, you can find me in the kitchen. If I'm not in the kitchen, 
+                    I am usually grocery shopping for ingredients to use in said kitchen. I find it very therapeutic to walk around a grocery store listening to a podcast
+                    and picking out amazing things to put together. I love living downtown and taking my dog for walks around the city. My fiance and I enjoy going on vacation, 
+                    taking our dog to Tanner Park and studying together. </p>
+
+                </div>
+            </div>
+          </div>
+        </div>
        </div>
     </div>
+        <!--Footer-->
+    <div class="footer">
+        <div class="row align-items-end">
+            <div class="col lg-12 foot">
+              Copyright &copy; 
+            </div>
+        </div>
+    </div>
 
 
-
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
