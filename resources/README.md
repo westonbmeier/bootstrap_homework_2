@@ -1,5 +1,9 @@
 # bootstrap_homework_2
 
+https://westonbmeier.github.io/bootstrap_homework_2/
+
+
+
 # This is my portfolio outfitted with bootstrap. 
 
 I have recreated my original portfolio using bootstrap. The reason being is that it is compatible for more viewports so the pages can be seen on more media.  
@@ -21,3 +25,10 @@ Border color is: #cccccc
 The blue color used for the pages is: #4aaaa5
 
 The profile picture and all placeholder images are the same as the prior portfolio as well. 
+
+
+Screenshots: 
+
+![About Me Page](resources/aboutpage.PNGe")
+![Portfolio Page](resources/portfoliopage.PNG)
+![Contact Page](resources/contactpage.PNG)
