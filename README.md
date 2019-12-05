@@ -29,6 +29,6 @@ The profile picture and all placeholder images are the same as the prior portfol
 
 Screenshots: 
 
-![About Me Page](resources/aboutpage.PNGe")
+![About Me Page](resources/aboutpage.PNG)
 ![Portfolio Page](resources/portfoliopage.PNG)
 ![Contact Page](resources/contactpage.PNG)
